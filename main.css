@@ -1,0 +1,23 @@
+.container {
+  max-width: 1000px;
+}
+
+.container input {
+  width: 50%;
+  height:30px;
+  background-color: black;
+  color: white;
+  margin-left: 3px;
+  font-size: 20px;
+}
+
+.container button {
+  width: 12%; 
+  height: 50px;
+  font-size:30px;
+  margin: 2px;
+}
+
+.button-bottom {
+  width: 210%;
+}
