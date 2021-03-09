@@ -1,23 +1,38 @@
 .container {
-  max-width: 1000px;
+  width: 300px;
+  margin: 20px auto;
 }
 
-.container input {
-  width: 50%;
-  height:30px;
+.output {
+  width: 210px;
+  height: 30px;
+  line-height: 20px;
+  text-align: right;
+  padding: 5px;
+  margin-bottom: 5px;
+  border:2px solid black;
+  box-sizing: border-box;
+  display:none;
   background-color: black;
   color: white;
-  margin-left: 3px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
-.container button {
-  width: 12%; 
-  height: 50px;
-  font-size:30px;
-  margin: 2px;
+.output.active {
+  display:block;
+} 
+
+.num_bth {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  line-height: 10px;
 }
 
-.button-bottom {
-  width: 210%;
+#clear, #equal_btn {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  line-height: 10px;
+  margin: 3px;
 }
